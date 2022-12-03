@@ -12,7 +12,7 @@ export default class Aviao extends BaseModel {
   public alcance: number
 
   @column()
-  public horasVoo: number
+  public horas_voo: number
 
   @column()
   public fabricante: string

@@ -13,7 +13,7 @@ export default class extends BaseSchema {
       table.string('modelo').notNullable()
       table.integer('capacidade').notNullable()
       table.integer( 'alcance').notNullable()
-      table.integer('horasVoo').defaultTo(0)
+      table.integer('horas_voo').defaultTo(0)
       table.string('fabricante').notNullable()
     })
   }

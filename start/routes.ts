@@ -23,3 +23,8 @@ import Route from '@ioc:Adonis/Core/Route'
 Route.get('/', async ({ view }) => {
   return view.render('index')
 })
+
+Route.post('/create', 'AviaoController.store')
+Route.post('/delete', 'AviaoController.delete')
+Route.post('/read', 'AviaoController.read')
+Route.post('/update', 'AviaoController.update')
